@@ -42,35 +42,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+**Market Overview:** The global Augmented Analytics market size is estimated at **$36B – $41B in 2026** (projected to reach $127B–$300B+ by 2033–2035 at ~26% CAGR) and exhibits a **moderately fragmented / medium-concentration** structure, where major enterprise cloud giants compete alongside specialized AI analytics platforms.
 
+| Product | Company Size / Valuation | Starting Tier Price | Free Tier / Trial Limit | Key Features & Capabilities |
+|---|---|---|---|---|
+| **[Microsoft Power BI Copilot](https://powerbi.microsoft.com/)** | **$3.1 Trillion** (Market Cap) | $10 / user / month (Pro tier) | **Free Forever** (Desktop edition); 60-day trial for Fabric/Pro cloud features | Copilot AI narrative reports, DAX generation, integration with Microsoft 365 & Fabric |
+| **[Oracle Analytics Cloud](https://www.oracle.com/analytics/)** | **$380 Billion** (Market Cap) | $16 / user / month (Professional Edition) | **30-day trial** ($300 cloud credits) + Always Free tier (2 Autonomous DBs) | Auto-insights, natural language generation (NLG), automated data preparation, enterprise ML |
+| **[Tableau Pulse (Salesforce)](https://www.tableau.com/)** | **$260 Billion** (Market Cap) | $15 / user / month (Viewer tier) | **14-day trial** (Full Tableau Cloud & Pulse metric tracking access) | AI-driven metric summaries, natural language Q&A, automated digest notifications |
+| **[SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html)** | **$250 Billion** (Market Cap) | $36 / user / month (Standard Business User) | **90-day trial** (Up to 5 users, 10 GB data storage limit) | Joule AI copilot, predictive forecasting, enterprise smart discovery, planning integration |
+| **[Sisu Data (Snowflake)](https://www.sisudata.com/)** | **$50 Billion** (Market Cap) | $2.00 / credit (Pay-as-you-go Cortex credits) | **30-day trial** ($400 free Snowflake credits) | Automated root-cause analysis, key driver exploration, high-cardinality SQL analytics |
+| **[Qlik AutoML & Sense](https://www.qlik.com/)** | **$10 Billion** (Valuation) | $20 / user / month (Standard tier, 10-user min) | **30-day trial** (Qlik Cloud Business, 5 users, 25 GB data limit) | Automated machine learning, generative AI insight advisor, associative analytics engine |
+| **[ThoughtSpot](https://www.thoughtspot.com/)** | **$4.5 Billion** (Valuation) | $25 / user / month (Essentials tier) | **14-day trial** (Full search-driven analytics & Liveboard access) | Search-driven NLQ, Spotter AI agents, automated anomaly detection on governed warehouses |
+| **[Sisense Fusion](https://www.sisense.com/)** | **$1.1 Billion** (Valuation) | $833 / month ($10,000 / year base platform) | **30-day trial** (Full sandbox environment with sample & live data connectors) | Embedded AI analytics, natural language query, custom AI model integration, proactive alerts |
+| **[Domo AI](https://www.domo.com/)** | **$350 Million** (Market Cap) | $300 / month (Standard tier) | **Free Forever plan** (Up to 300 credits/month, unlimited users) | DomoMind AI chat, automated data pipelines, interactive dashboards, real-time alert triggers |
+| **[Tellius](https://www.tellius.com/)** | **$100 Million** (Valuation) | $1,500 / month (Professional base tier) | **14-day trial** (Full access to search & automated driver analysis on custom data) | Decision intelligence, why-change diagnostic analytics, natural language search over SQL |
 
-- **[ThoughtSpot](https://www.thoughtspot.com/)**  
-
-  Search- and AI-driven analytics platform—natural language queries, Liveboards, and Spotter-style agents on governed data.
-
-
-
-- **[Power BI Copilot, Tableau Pulse, Sisense Fusion, Qlik](https://powerbi.microsoft.com/)**  
-
-  Major BI vendors embedding copilots, automated insights, and autoML into enterprise analytics suites.
-
-
-
-- **[Tellius, Sisu Data](https://www.tellius.com/)**  
-
-  Augmented analytics specialists focused on why-change analysis, decision intelligence, and AI-generated insights.
-
-
-
-- **[Oracle Analytics Cloud, SAP Analytics Cloud, Domo AI](https://www.oracle.com/analytics/)**  
-
-  Cloud analytics platforms with AI assistants, predictive features, and enterprise semantic layers.
-
-
-
-- **[Other commercial augmented analytics platforms](https://www.thoughtspot.com/)**  
-
-  Additional decision-intelligence and conversational BI products.
 
 
 
