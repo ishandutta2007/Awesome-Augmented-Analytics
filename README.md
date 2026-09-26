@@ -57,45 +57,45 @@ Whether you are evaluating commercial enterprise copilots like **Microsoft Power
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are top open-source projects providing self-hosted BI, AI agent frameworks, text-to-SQL engines, and universal metric layers for augmented analytics. *Sorted by GitHub Star Count (Descending).*
+Below are top open-source projects providing self-hosted BI, AI agent frameworks, text-to-SQL engines, and universal metric layers for augmented analytics. *Sorted by GitHub Stars_Count (Descending).*
 
-1. **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+1. **[Apache Superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
    ⚡ *Enterprise open-source data exploration & visualization platform with SQL IDE, interactive dashboards, and growing LLM plugin integration.*
 
-2. **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+2. **[Metabase](https://github.com/metabase/metabase)** [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
    🎯 *Leading self-service open BI platform with visual query builder, automated charting, and AI assistant capabilities for business users.*
 
-3. **[OpenBB](https://github.com/OpenBB-finance/OpenBB)** [![GitHub stars](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=social&color=white)](https://github.com/OpenBB-finance/OpenBB/stargazers)  
+3. **[OpenBB](https://github.com/OpenBB-finance/OpenBB)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=social&color=white)](https://github.com/OpenBB-finance/OpenBB/stargazers)  
    📈 *Open-source investment research, financial analytics, and copilot agent infrastructure connecting multi-asset data sources.*
 
-4. **[Redash](https://github.com/getredash/redash)** [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
+4. **[Redash](https://github.com/getredash/redash)** [![GitHub_Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
    📊 *Open-source data visualization and SQL query platform designed for collaborative dashboarding and data sharing.*
 
-5. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+5. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
    🦆 *High-performance in-process analytical SQL database engine powering ultra-fast local augmented analytics and interactive notebook workflows.*
 
-6. **[Cube](https://github.com/cube-js/cube)** [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
+6. **[Cube](https://github.com/cube-js/cube)** [![GitHub_Stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
    🧊 *Universal semantic layer and data model API powering AI agents, LLM text-to-SQL context, and governed metrics.*
 
-7. **[DB-GPT](https://github.com/eugeneyan/open-source-bi)** [![GitHub stars](https://img.shields.io/github/stars/eugeneyan/open-source-bi?style=social&color=white)](https://github.com/DB-GPT/DB-GPT/stargazers)  
+7. **[DB-GPT](https://github.com/eugeneyan/open-source-bi)** [![GitHub_Stars](https://img.shields.io/github/stars/eugeneyan/open-source-bi?style=social&color=white)](https://github.com/DB-GPT/DB-GPT/stargazers)  
    🤖 *AI-native data app development framework featuring Multi-Agent RAG, text-to-SQL engines, and privacy-first database assistants.*
 
-8. **[Vanna AI](https://github.com/vanna-ai/vanna)** [![GitHub stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=social&color=white)](https://github.com/vanna-ai/vanna/stargazers)  
+8. **[Vanna AI](https://github.com/vanna-ai/vanna)** [![GitHub_Stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=social&color=white)](https://github.com/vanna-ai/vanna/stargazers)  
    💬 *Open-source RAG-based Python framework for precise text-to-SQL generation and conversational database querying.*
 
-9. **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
+9. **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub_Stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
    🔥 *Open-source dbt-native agentic BI platform enabling metrics-as-code, automated charts, and Git-driven CI/CD workflows.*
 
-10. **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
+10. **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub_Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
     📄 *Code-first, markdown-based framework for building interactive data products and narrative analytics reports.*
 
-11. **[Dataherald](https://github.com/Dataherald/dataherald)** [![GitHub stars](https://img.shields.io/github/stars/Dataherald/dataherald?style=social&color=white)](https://github.com/Dataherald/dataherald/stargazers)  
+11. **[Dataherald](https://github.com/Dataherald/dataherald)** [![GitHub_Stars](https://img.shields.io/github/stars/Dataherald/dataherald?style=social&color=white)](https://github.com/Dataherald/dataherald/stargazers)  
     🧠 *Natural language to SQL engine built for enterprise data warehouses with business context learning and query validation.*
 
-12. **[Rill Developer](https://github.com/rilldata/rill)** [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
+12. **[Rill Developer](https://github.com/rilldata/rill)** [![GitHub_Stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
     ⚡ *Fast operational analytics tool paired with DuckDB and Apache Pinot for interactive metric exploration.*
 
-13. **[Helical Insight](https://github.com/helicalinsight/helicalinsight)** [![GitHub stars](https://img.shields.io/github/stars/helicalinsight/helicalinsight?style=social&color=white)](https://github.com/helicalinsight/helicalinsight/stargazers)  
+13. **[Helical Insight](https://github.com/helicalinsight/helicalinsight)** [![GitHub_Stars](https://img.shields.io/github/stars/helicalinsight/helicalinsight?style=social&color=white)](https://github.com/helicalinsight/helicalinsight/stargazers)  
     🛠️ *Open-source BI framework featuring customizable reporting, embedded analytics, and NLP question-answering modules.*
 
 ---
@@ -136,7 +136,7 @@ Contributions are welcome! Please follow these guidelines:
 1. Fork this repository.
 2. Edit `README.md` keeping descriptions factual, concise, and formatted.
 3. For SaaS platforms, include specific starting tier prices, free trial limits, and company valuation.
-4. For Open-Source projects, include the proper stargazers link and GitHub star badge.
+4. For Open-Source projects, include the proper stargazers link and GitHub Stars_Badge.
 5. Submit a Pull Request with a short summary of the addition.
 
 *Refer to the main [Awesome List Directory](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists.*
