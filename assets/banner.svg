@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0a0c10" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="50%" stop-color="#bc8cff" />
+      <stop offset="100%" stop-color="#3fb950" />
+    </linearGradient>
+
+    <linearGradient id="glow-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="glow-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#e879f9" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtle-blur">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 54px;
+      fill: url(#title-gradient);
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      fill: #8b949e;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #58a6ff;
+    }
+    
+    /* Dynamic CSS Animations */
+    @keyframes pulse-node {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.25); opacity: 1; }
+    }
+    @keyframes float-grid {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes dash-flow {
+      to { stroke-dashoffset: -40; }
+    }
+
+    .anim-pulse-1 { animation: pulse-node 4s ease-in-out infinite; transform-origin: 1000px 100px; }
+    .anim-pulse-2 { animation: pulse-node 5s ease-in-out infinite 1s; transform-origin: 1100px 280px; }
+    .anim-pulse-3 { animation: pulse-node 3.5s ease-in-out infinite 0.5s; transform-origin: 150px 320px; }
+    .anim-float { animation: float-grid 8s ease-in-out infinite; }
+    .anim-flow { stroke-dasharray: 8 8; animation: dash-flow 3s linear infinite; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="400" fill="url(#bg-gradient)" rx="16" />
+
+  <!-- Background Decorative Grid -->
+  <g opacity="0.08" class="anim-float">
+    <path d="M0,50 H1200 M0,100 H1200 M0,150 H1200 M0,200 H1200 M0,250 H1200 M0,300 H1200 M0,350 H1200" stroke="#ffffff" stroke-width="1" />
+    <path d="M100,0 V400 M200,0 V400 M300,0 V400 M400,0 V400 M500,0 V400 M600,0 V400 M700,0 V400 M800,0 V400 M900,0 V400 M1000,0 V400 M1100,0 V400" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <!-- Dynamic Glowing Graphic Elements (Backgrounded & Positioned Responsively) -->
+  <g filter="url(#glow-filter)">
+    <!-- Right side node connections -->
+    <path d="M900 200 L1000 100 L1100 280 L980 320 Z" fill="none" stroke="url(#glow-cyan)" stroke-width="2" class="anim-flow" />
+    <circle cx="1000" cy="100" r="14" fill="url(#glow-cyan)" class="anim-pulse-1" />
+    <circle cx="1100" cy="280" r="18" fill="url(#glow-purple)" class="anim-pulse-2" />
+    <circle cx="980" cy="320" r="10" fill="#3fb950" opacity="0.7" />
+
+    <!-- Left side subtle background accent -->
+    <circle cx="150" cy="320" r="12" fill="url(#glow-cyan)" class="anim-pulse-3" />
+    <path d="M80 350 L150 320 L240 360" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0.4" />
+  </g>
+
+  <!-- Bar Chart Accent Illustration (Right Background) -->
+  <g opacity="0.25" transform="translate(850, 180)">
+    <rect x="0" y="80" width="24" height="60" rx="4" fill="#58a6ff" />
+    <rect x="36" y="40" width="24" height="100" rx="4" fill="#bc8cff" />
+    <rect x="72" y="10" width="24" height="130" rx="4" fill="#3fb950" />
+    <rect x="108" y="55" width="24" height="85" rx="4" fill="#38bdf8" />
+  </g>
+
+  <!-- Foreground Content (Guaranteed Crisp & Unobstructed) -->
+  <!-- Tag / Pill -->
+  <g transform="translate(80, 75)">
+    <rect width="210" height="32" rx="16" fill="#1f6feb" fill-opacity="0.2" stroke="#58a6ff" stroke-width="1.5" />
+    <text x="105" y="21" text-anchor="middle" class="badge-text">🤖 AI &amp; AGENTIC ANALYTICS</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="170" class="title" filter="url(#subtle-blur)" opacity="0.3">Awesome Augmented Analytics</text>
+  <text x="80" y="170" class="title">Awesome Augmented Analytics</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="225" class="subtitle">Curated AI-Powered BI, Text-to-SQL, Auto-Insights &amp; Semantic Metric Layers</text>
+
+  <!-- Bottom Feature Badges -->
+  <g transform="translate(80, 275)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="165" height="36" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="23" font-family="sans-serif" font-size="14" fill="#c9d1d9">📊 Next-Gen BI</text>
+
+    <!-- Pill 2 -->
+    <rect x="180" y="0" width="185" height="36" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="196" y="23" font-family="sans-serif" font-size="14" fill="#c9d1d9">💬 Conversational NLQ</text>
+
+    <!-- Pill 3 -->
+    <rect x="380" y="0" width="180" height="36" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="396" y="23" font-family="sans-serif" font-size="14" fill="#c9d1d9">🧠 AI Metric Layers</text>
+  </g>
+</svg>
